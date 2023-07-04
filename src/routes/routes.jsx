@@ -1,11 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import PrimaryLayout from "../layouts/PrimaryLayout";
-import CharactersPage from "../pages/charactersPage";
-import CocktailPage from "../pages/CocktailPAge";
+import MArgaritasPAge from "../pages/MargaritasPAge";
+import MojitosPage from "../pages/MojitosPAge";
+import DaiquiriPage from "../pages/DaiquiriPage";
 import NotFoundPage from "../pages/NotFoundPage";
-import { readCharacters } from "../services/charactersService";
-import { readCocktails } from "../services/CocktailsService";
+import { readMargaritas } from "../services/MargaritasService";
+import { readMojitos } from "../services/MojitosService";
+import { readDaiquiri } from "../services/DaiquiriService";
 
 export const router = createBrowserRouter([
   {
@@ -17,24 +19,23 @@ export const router = createBrowserRouter([
         index: true,
         element: <App />
       },
+      
       {
-        path: 'personajes',
-        element: <CharactersPage />,
-        loader: readCharacters
+        path: 'margaritas',
+        element: <MArgaritasPAge />,
+        loader: readMargaritas
       },
       {
-        path: 'cocktails',
-        element: <CocktailPage />,
-        loader: readCocktails
+        path: 'mojitos',
+        element: <MojitosPage />,
+        loader: readMojitos
       },
       {
-        path: 'ubicaciones',
-        element: <h1 style={{ padding: '5rem' }}>Ubicaciones</h1>
+        path: 'daiquiris',
+        element: <DaiquiriPage />,
+        loader: readDaiquiri
       },
-      {
-        path: 'episodios',
-        element: <h1 style={{ padding: '5rem' }}>Episodios</h1>
-      }
+      
     ]
   },
 ]);

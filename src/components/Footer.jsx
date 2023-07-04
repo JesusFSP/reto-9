@@ -8,7 +8,7 @@ const Footer = () => {
               <div className="w-full mb-10">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/logo/logo.svg"
+                    src="https://www.svgrepo.com/show/422181/alcohol-beverage-cocktail.svg"
                     alt="logo"
                     className="max-w-full"
                   />
@@ -115,7 +115,7 @@ const Footer = () => {
                 </div>
                 <p className="text-base text-body-color">
                   {" "}
-                  © {new Date().getFullYear()} TailGrids{" "}
+                  © {new Date().getFullYear()} Adoptados{" "}
                 </p>
               </div>
             </div>

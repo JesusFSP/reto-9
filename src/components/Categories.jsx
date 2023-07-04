@@ -2,25 +2,21 @@ import { Link } from "react-router-dom";
 
 const Categories = () => {
   const categories = [
+   
     {
-      title: 'Personajes',
-      href: '/personajes',
-      img: 'https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3614168-total_rickall.jpg'
+      title: 'Margaritas',
+      href: '/margaritas',
+      img: 'https://cdn.bolivia.com/gastronomia/2011/08/19/margarita-3005-0.jpg'
     },
     {
-      title: 'Ubicaciones',
-      href: '/ubicaciones',
-      img: 'https://overmental.com/wp-content/uploads/2015/10/rick-and-morty-calaxia.jpg'
+      title: 'Mojitos',
+      href: '/mojitos',
+      img: 'https://www.shutterstock.com/image-photo/mojito-virgin-long-rum-drink-260nw-1911762766.jpg'
     },
     {
-      title: 'Episodios',
-      href: '/episodios',
-      img: 'https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/rick-and-morty-best-episodes.jpg'
-    },
-    {
-      title: 'Cocktails',
-      href: '/cocktails',
-      img: 'https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/rick-and-morty-best-episodes.jpg'
+      title: 'Daiquiri',
+      href: '/daiquiris',
+      img: 'https://www.gastrolabweb.es/u/fotografias/m/2022/12/13/f850x638-23344_100833_5050.jpg'
     },
   ];
 
