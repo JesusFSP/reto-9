@@ -1,12 +1,15 @@
-import './App.css'
-
+import './App.css';
+import Categories from './components/Categories';
+import Hero from './components/Hero';
 
 function App() {
+
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-sky-950">Rick and Morty</h1>
+      <Hero />
+      <Categories />
     </>
   )
 }
 
-export default App
+export default App;
